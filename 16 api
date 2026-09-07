@@ -1,0 +1,73 @@
+// Void Launcher - Modern Clean Dashboard Theme
+
+...column-start vertical=spacedBy(4) horizontal=Center
+...image url="https://i.ibb.co/L8y2wS9/void-launcher-logo.png" width=35% shape=12dp
+...row-start horizontal=spacedBy(6) vertical=Center
+...button-text text="💬 Official Discord" event="url {https://discord.gg/mtP5eTusfj}"
+...button-text text="⭐ GitHub Source" event="url {https://github.com}"
+...row-end
+...column-end
+
+...random-start
+> ⚡ *Welcome back, Commander! Ready to step into the Void?*
+weight(2.0): > 🎮 *Void Core Online. Launch your next adventure!*
+> 🚀 *Void Launcher running at peak performance.*
+> 🛡️ *FPS Optimizer & Anti-Cheat modules engaged.*
+...random-end
+
+...card-start title="⚡ GAME LAUNCHER" shape=16dp contentPadding=(16, 14)
+...column-start vertical=spacedBy(10)
+...row-start horizontal=spacedBy(8)
+...button text="🚀 LAUNCH GAME" event="launch_game{}" weight=(2) shape=12dp
+...button-filled-tonal text="🔄 REFRESH" event="refresh_page" weight=(1) shape=12dp
+...row-end
+...row-start horizontal=spacedBy(8)
+...button-outlined text="⚙️ RAM Allocator" event="url {https://discord.gg/mtP5eTusfj}" weight=(1) shape=10dp
+...button-outlined text="⚡ FPS Booster" event="url {https://discord.gg/mtP5eTusfj}" weight=(1) shape=10dp
+...row-end
+...column-end
+...card-end
+
+...card-start title="🌐 MULTIPLAYER SERVERS" shape=16dp contentPadding=(16, 14)
+...column-start vertical=spacedBy(10)
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...button text="⚔️ Donut Smp" event="launch_game{server=donutsmp.net}" weight=(2) shape=10dp
+...button-outlined text="📋 Copy IP" event="copy{donutsmp.net}" weight=(1) shape=10dp
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...button text="🛡️ McPvp" event="launch_game{server=mcpvp.club}" weight=(2) shape=10dp
+...button-outlined text="📋 Copy IP" event="copy{mcpvp.club}" weight=(1) shape=10dp
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...button text="👑 Hypixel" event="launch_game{server=mc.hypixel.net}" weight=(2) shape=10dp
+...button-outlined text="📋 Copy IP" event="copy{mc.hypixel.net}" weight=(1) shape=10dp
+...row-end
+
+...row-start horizontal=spacedBy(8) vertical=Center
+...button text="🔮 Complex Gaming" event="launch_game{server=hub.mc-complex.com}" weight=(2) shape=10dp
+...button-outlined text="📋 Copy IP" event="copy{hub.mc-complex.com}" weight=(1) shape=10dp
+...row-end
+
+...column-end
+...card-end
+
+...card-start title="🛠️ UTILITIES & LOGS" shape=16dp contentPadding=(16, 14)
+...column-start vertical=spacedBy(10)
+...row-start horizontal=spacedBy(8)
+...button-outlined text="🧩 Browse Mods" event="url {https://modrinth.com}" weight=(1) shape=10dp
+...button-outlined text="📜 Game Logs" event="share_game_log" weight=(1) shape=10dp
+...row-end
+...row-start horizontal=spacedBy(8)
+...button-outlined text="🔍 Check Updates" event="check_update" weight=(1) shape=10dp
+...button-outlined text="💬 Discord Server" event="url {https://discord.gg/mtP5eTusfj}" weight=(1) shape=10dp
+...row-end
+...column-end
+...card-end
+
+...row-start horizontal=SpaceBetween vertical=Center
+...button-text text="© 2026 Void Launcher" event="url {https://discord.gg/mtP5eTusfj}"
+...button-text text="v2.4.0 (Latest)" event="check_update"
+...row-end
